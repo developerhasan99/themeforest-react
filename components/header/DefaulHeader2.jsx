@@ -31,16 +31,15 @@ const DefaulHeader2 = () => {
           <div className="logo-box">
             <div className="logo">
               <Link href="/">
-                <img src="/images/logo.svg" alt="brand" />
+                <img src="/images/logo4.png" alt="brand" />
               </Link>
             </div>
           </div>
           {/* End .logo-box */}
-
-          <HeaderNavContent />
-          {/* <!-- Main Menu End--> */}
         </div>
         {/* End .nav-outer */}
+        <HeaderNavContent />
+        {/* <!-- Main Menu End--> */}
 
         <div className="outer-box">
           {/* <!-- Login/Register --> */}
@@ -51,7 +50,7 @@ const DefaulHeader2 = () => {
               data-bs-toggle="modal"
               data-bs-target="#loginPopupModal"
             >
-              Login
+              Belépés
             </a>
           </div>
         </div>

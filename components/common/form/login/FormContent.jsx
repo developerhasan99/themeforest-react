@@ -4,19 +4,24 @@ import LoginWithSocial from "./LoginWithSocial";
 const FormContent = () => {
   return (
     <div className="form-inner">
-      <h3>Login to Superio</h3>
+      <h3>Bejelentkezni Diákmunka Térkép</h3>
 
       {/* <!--Login Form--> */}
       <form method="post">
         <div className="form-group">
-          <label>Username</label>
-          <input type="text" name="username" placeholder="Username" required />
+          <label>Felhasználónév</label>
+          <input
+            type="text"
+            name="username"
+            placeholder="Felhasználónév"
+            required
+          />
         </div>
         {/* name */}
 
         <div className="form-group">
-          <label>Password</label>
-          <input type="password" name="password" placeholder="Password" />
+          <label>Jelszó</label>
+          <input type="password" name="password" placeholder="Jelszó" />
         </div>
         {/* password */}
 
@@ -25,11 +30,11 @@ const FormContent = () => {
             <div className="input-group checkboxes square">
               <input type="checkbox" name="remember-me" id="remember" />
               <label htmlFor="remember" className="remember">
-                <span className="custom-checkbox"></span> Remember me
+                <span className="custom-checkbox"></span> Emlékezz rám
               </label>
             </div>
             <a href="#" className="pwd">
-              Forgot password?
+              Elfelejtetted a jelszavad?
             </a>
           </div>
         </div>
@@ -41,7 +46,7 @@ const FormContent = () => {
             type="submit"
             name="log-in"
           >
-            Log In
+            Belépés
           </button>
         </div>
         {/* login */}
